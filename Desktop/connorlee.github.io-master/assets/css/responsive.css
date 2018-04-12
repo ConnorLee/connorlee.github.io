@@ -1,0 +1,158 @@
+
+@media only screen and (max-width: 320px){
+    .subscribe-form .form-control {
+        width: 40%;
+        padding: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 767px){
+
+
+   .newsletter-block{
+    width: auto;
+    padding: 20px;
+    left: 0;
+    top: -160px;
+}
+.hero-img{
+    display: none;
+}
+.subscribe-form .form-control{
+    width: 50%;
+}
+.subscribe-form .btn-subscribe{
+    padding: 0 10px;
+}
+.icon-block {
+    margin-bottom: 25px;
+}
+ .navbar-default {
+    padding: 0;
+}
+.navbar-toggle{
+    margin-right: 0;
+}
+ .navbar-header {
+    padding: 10px 15px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    background-color: #fff;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>li>a {
+    background-color: transparent;
+    color: #222!important;
+}
+.navbar-default .navbar-right > li:first-child{
+    margin-left: 20px!important;
+}
+.left-block .feature-block {
+    text-align: left;
+}
+.feature-img {
+    top: 0px;
+
+}
+.screenshot_caroussel .owl-controls .owl-next {
+   right: 30%;
+}
+.screenshot_caroussel .owl-controls .owl-prev {
+    left: 30%;
+}
+
+    .blog-card{
+        margin-bottom: 40px;
+    }
+
+
+}
+@media only screen and (max-width: 1023px){
+    .affix .navbar-right > li > a:hover, .affix .navbar-right > li > a:focus, .navbar-collapse .navbar-right > li > a:active {
+    color: #40d4a1!important;
+}
+
+  .actions-btn .btn{
+        margin-bottom: 20px;
+    }
+      .section-hero{
+        overflow: hidden;
+      height: 100%;
+    padding-bottom: 80px;
+    }
+    .circle-content
+    {
+       display:none;
+   }
+   .subscribe-form .form-control{
+    width: 50%;
+}
+.subscribe-form .btn-subscribe{
+    padding: 0 10px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+    .info-blog h3 a{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .info-blog p{
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .navbar-brand>img {
+        width: 140px;
+    }
+    .hero-img {
+        position: relative;
+        top: -35px;
+    }
+    .navbar-brand{
+        padding: 0;
+    }
+    .navbar-default .navbar-right > li + li {
+        margin-left: 10px;
+    }
+    .navbar-default .navbar-nav>li>a{
+        font-size: 11.5px;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width:1200px){
+ .section-hero {
+    height: 100%;
+    padding-bottom: 80px;
+}
+.subscribe-form .btn-subscribe {
+    padding: 0 30px;
+    }
+
+}
+
+@media only screen and (min-width: 1600px){
+    .section-hero {
+        padding-top: 180px;
+    }
+}
+
+/* Landscape*/
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 767px) 
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 1) {
+ 
+ 
+.subscribe-form .form-control {
+    width: 70%;
+}
+ 
+.section-hero {
+  height: 100%;
+    }
+    .newsletter-block {
+   transform: translate(0, 0);
+    left: 8%;
+  
+}
