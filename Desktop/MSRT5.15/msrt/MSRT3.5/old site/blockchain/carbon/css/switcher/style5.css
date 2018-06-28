@@ -1,0 +1,30 @@
+.link,
+a:hover,
+a:focus,
+html body .text-primary,
+.btn-default:hover,
+.btn-primary:focus,
+.btn-primary:focus:hover,
+.btn-primary:active:focus,
+.btn-primary:active {
+  color: rgb(237, 20, 91);
+}
+
+.btn-primary:after,
+.icon-primary,
+.divider,
+#style-switcher .toggle-switcher {
+  background: rgb(237, 20, 91);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active:focus,
+.form-control:hover,
+.form-control:focus {
+  border-color: rgb(237, 20, 91);
+}
+
+.btn-primary {
+  border: 1px solid rgb(237, 20, 91);
+}
